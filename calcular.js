@@ -24,7 +24,6 @@ function triangulo(){
     }
     document.querySelector('#resultado').innerHTML = resultado;
 }
-
 //funçao de limpar formulario
 function limpar(){
     document.querySelector('#NUMERO1').value = '';
