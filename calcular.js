@@ -13,18 +13,16 @@ function triangulo(){
     let imgTriangulo = document.querySelector('#imgTriangulo')
 
     if((numero1 == numero2) && (numero1 == numero3)){
-        resultado = 'triangulo Equilatero'
-        imgTriangulo.setAttribute('src','img/equilatero.png');
+    resultado = 'triangulo Equilatero'
+    imgTriangulo.setAttribute('src','img/equilatero.png');
     }else if ((numero1 != numero2) && (numero1 != numero3) && (numero2 != numero3)){
     resultado = 'Triangulo Escaleno'
     imgTriangulo.setAttribute('src','img/escaleno.png');
     }else{
-        resultado = 'Triangulo Isoceles'
-        imgTriangulo.setAttribute('src','img/isoceles.png');
+    resultado = 'Triangulo Isoceles'
+    imgTriangulo.setAttribute('src','img/isoceles.png');
     }
-    
     document.querySelector('#resultado').innerHTML = resultado;
-    
 }
 
 //funçao de limpar formulario
